@@ -66,6 +66,7 @@ void afficherGrille(int grille[3][3]){
   printf("%s",ligneAffiche);
 }
 
+// demande une coordonnées et joue à l'emplacement une X ou un O en fonction du joueur 1 ou 2.
 void demandeCoordo(int grille[3][3], int joueur){
 	printf("Entrez les coordonnées où vous voulez jouer : \n");
 	char coord[20];
@@ -109,3 +110,4 @@ int main(int argc, char const *argv[]) {
 
   return 0;
 }
+
